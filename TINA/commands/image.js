@@ -1,14 +1,18 @@
-module.exports.config = {
-    name: "img",
-    version: "1.0.0",
-    hasPermission: 0,
-    credits: "RAHAT",
-    description: "Image To Text",
-    usePrefix: true,
-    commandCategory: "Khan Rahul RK",
-    usages: " image",
-    cooldowns: 5,
-    dependencies: {
+module.exports = {
+    config: {
+        name: "image",
+        version: "1.0",
+        credits: "RAHAT KHAN",
+        cooldowns: 5,
+        hasPermission: 0,
+        description: "𝗜𝗺𝗮𝗴𝗲",
+        usePrefix: true,
+        prefix: true,
+        commandCategory: "𝗜𝗠𝗔𝗚𝗘",
+        category: " image",
+    usages: "",
+    cooldowns: 10,
+    dependencies: {}
 };
 
 module.exports.run = async function ({ api, event }) {

@@ -1,15 +1,13 @@
-module.exports = {
-    config: {
-        name: "image",
-        version: "1.0",
-        credits: "RAHAT KHAN",
-        cooldowns: 5,
-        hasPermission: 0,
-        description: "𝗜𝗺𝗮𝗴𝗲",
-        usePrefix: true,
-        prefix: true,
-        commandCategory: "𝗜𝗠𝗔𝗚𝗘",
-        category: " image",
+module.exports.config = {
+    name: "image",
+    aliases: ["image", "photo"],
+    version: "1.1.0",
+    hasPermission: 2,
+    permission: 2,
+    credits: "RAHAT",
+    description: "Process image with various options",
+    prefix: 2,
+    commandCategory: "prefix",
     usages: "",
     cooldowns: 10,
     dependencies: {}
